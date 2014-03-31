@@ -1,13 +1,14 @@
 # DCRandomizer
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/DCRandomizer/badge.png)](http://cocoadocs.org/docsets/DCRandomizer)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/DCRandomizer/badge.png)](http://cocoadocs.org/docsets/DCRandomizer)
+DCRandomizer is a super simple NSMutableArray randomizer. All it does is accept an input, and randomly shuffles it into an output.
 
 ## Usage
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+ARC is set to required on the podspec, just a fyi.
 
 ## Installation
 
@@ -18,7 +19,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-, 
+dcaetano@github 
 
 ## License
 
