@@ -12,10 +12,10 @@
 
 + (NSMutableArray*)randomizeArray:(NSMutableArray*)arrayIn {
     
-    NSUInteger count = [arrayIn count];                         //size of array
-    for (NSUInteger i = 0; i < count; ++i) {
-        NSInteger elements = count - i;                        
-        NSInteger n = arc4random_uniform(elements) + i;        //randomize
+    int count = [arrayIn count];                         //size of array
+    for (int i = 0; i < count; ++i) {
+        int elements = count - i;
+        int n = arc4random_uniform(elements) + i;        //randomize
         [arrayIn exchangeObjectAtIndex:i withObjectAtIndex:n]; //do the swap!
     }
     
