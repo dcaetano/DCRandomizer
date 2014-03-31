@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "dcaetano" => "danilo.a.caetano@gmail.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/dcaetano/DCRandomizer.git" }
+  s.source       = { :git => "https://github.com/dcaetano/DCRandomizer.git", :tag => "0.1" }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
 end
